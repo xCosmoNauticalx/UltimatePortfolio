@@ -16,6 +16,10 @@
 		2F08B1A825A6565300F58C27 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F08B1A725A6565300F58C27 /* CloudKit.framework */; };
 		2F08B1AA25A657D400F58C27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1A925A657D400F58C27 /* HomeView.swift */; };
 		2F08B1AE25A6587900F58C27 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1AD25A6587900F58C27 /* ProjectsView.swift */; };
+		2F08B1B225A6781200F58C27 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1B125A6781200F58C27 /* Item-CoreDataHelpers.swift */; };
+		2F08B1B525A6794F00F58C27 /* Project-CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1B425A6794F00F58C27 /* Project-CoreDataHelper.swift */; };
+		2F08B1BB25A7791400F58C27 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1BA25A7791400F58C27 /* EditItemView.swift */; };
+		2F08B1BF25A77C5A00F58C27 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1BE25A77C5A00F58C27 /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		2F08B1A725A6565300F58C27 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2F08B1A925A657D400F58C27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2F08B1AD25A6587900F58C27 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		2F08B1B125A6781200F58C27 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		2F08B1B425A6794F00F58C27 /* Project-CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelper.swift"; sourceTree = "<group>"; };
+		2F08B1BA25A7791400F58C27 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		2F08B1BE25A77C5A00F58C27 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,11 @@
 				2F08B18D25A6554800F58C27 /* UltimatePortfolioApp.swift */,
 				2F08B1A925A657D400F58C27 /* HomeView.swift */,
 				2F08B1AD25A6587900F58C27 /* ProjectsView.swift */,
+				2F08B1BE25A77C5A00F58C27 /* ItemRowView.swift */,
+				2F08B1B125A6781200F58C27 /* Item-CoreDataHelpers.swift */,
+				2F08B1B425A6794F00F58C27 /* Project-CoreDataHelper.swift */,
 				2F08B18F25A6554800F58C27 /* ContentView.swift */,
+				2F08B1BA25A7791400F58C27 /* EditItemView.swift */,
 				2F08B19D25A6555B00F58C27 /* Main.xcdatamodeld */,
 				2F08B1A125A6562100F58C27 /* DataController.swift */,
 				2F08B19125A6554800F58C27 /* Assets.xcassets */,
@@ -168,8 +180,12 @@
 				2F08B19F25A6555B00F58C27 /* Main.xcdatamodeld in Sources */,
 				2F08B1A225A6562100F58C27 /* DataController.swift in Sources */,
 				2F08B19025A6554800F58C27 /* ContentView.swift in Sources */,
+				2F08B1BF25A77C5A00F58C27 /* ItemRowView.swift in Sources */,
 				2F08B1AA25A657D400F58C27 /* HomeView.swift in Sources */,
 				2F08B18E25A6554800F58C27 /* UltimatePortfolioApp.swift in Sources */,
+				2F08B1B525A6794F00F58C27 /* Project-CoreDataHelper.swift in Sources */,
+				2F08B1BB25A7791400F58C27 /* EditItemView.swift in Sources */,
+				2F08B1B225A6781200F58C27 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

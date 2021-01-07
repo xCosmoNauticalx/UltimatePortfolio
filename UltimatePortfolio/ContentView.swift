@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Save current tab to state restoration for relaunch
+    // Using SceneStorage instead of AppStorage so that multiple instances don't sync &
+    //      data is deleted when user swipes up
+    @SceneStorage("selectedView") var selectedView: String?
+    
     var body: some View {
-        TabView {
+        TabView(selection: $selectedView) {
             HomeView()
                 .tabItem {
                     Image(systemName: "house")
@@ -17,12 +22,14 @@ struct ContentView: View {
                 }
             
             ProjectsView(showClosedProjects: false)
+                .tag(ProjectsView.openTag)
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("Open")
                 }
             
             ProjectsView(showClosedProjects: true)
+                .tag(ProjectsView.closedTag)
                 .tabItem {
                     Image(systemName: "checkmark")
                     Text("Closed")

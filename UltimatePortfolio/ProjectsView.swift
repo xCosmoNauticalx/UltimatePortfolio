@@ -12,6 +12,9 @@ struct ProjectsView: View {
     
     let projects: FetchRequest<Project>
     
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
+    
     init(showClosedProjects: Bool) {
         self.showClosedProjects = showClosedProjects
         
@@ -22,9 +25,9 @@ struct ProjectsView: View {
         NavigationView {
             List {
                 ForEach(projects.wrappedValue) { project in
-                    Section(header: Text(project.title ?? "")) {
-                        ForEach(project.items?.allObjects as? [Item] ?? []) { item in
-                            Text(item.title ?? "")
+                    Section(header: Text(project.projectTitle)) {
+                        ForEach(project.projectItems) { item in
+                            ItemRowView(item: item)
                         }
                     }
                 }
