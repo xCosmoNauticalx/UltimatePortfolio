@@ -20,6 +20,8 @@ extension Project {
         color ?? "Light Blue"
     }
     
+    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    
     /// For SwiftUI preview purposes
     static var example: Project {
         let controller = DataController(inMemory: true)

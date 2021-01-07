@@ -23,6 +23,7 @@
 		2F08B1C225A77E3100F58C27 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1C125A77E3100F58C27 /* Binding-OnChange.swift */; };
 		2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */; };
 		2F08B1C825A7838B00F58C27 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08B1C725A7838B00F58C27 /* Colors.xcassets */; };
+		2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		2F08B1C125A77E3100F58C27 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		2F08B1C725A7838B00F58C27 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,6 @@
 				2F08B1A425A6564900F58C27 /* UltimatePortfolio.entitlements */,
 				2F08B18D25A6554800F58C27 /* UltimatePortfolioApp.swift */,
 				2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */,
-				2F08B1C725A7838B00F58C27 /* Colors.xcassets */,
 				2F08B1A925A657D400F58C27 /* HomeView.swift */,
 				2F08B1AD25A6587900F58C27 /* ProjectsView.swift */,
 				2F08B1C125A77E3100F58C27 /* Binding-OnChange.swift */,
@@ -91,9 +92,11 @@
 				2F08B1B425A6794F00F58C27 /* Project-CoreDataHelper.swift */,
 				2F08B18F25A6554800F58C27 /* ContentView.swift */,
 				2F08B1BA25A7791400F58C27 /* EditItemView.swift */,
+				2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */,
 				2F08B19D25A6555B00F58C27 /* Main.xcdatamodeld */,
 				2F08B1A125A6562100F58C27 /* DataController.swift */,
 				2F08B19125A6554800F58C27 /* Assets.xcassets */,
+				2F08B1C725A7838B00F58C27 /* Colors.xcassets */,
 				2F08B19625A6554800F58C27 /* Info.plist */,
 				2F08B19325A6554800F58C27 /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */,
 				2F08B19F25A6555B00F58C27 /* Main.xcdatamodeld in Sources */,
 				2F08B1A225A6562100F58C27 /* DataController.swift in Sources */,
+				2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */,
 				2F08B19025A6554800F58C27 /* ContentView.swift in Sources */,
 				2F08B1BF25A77C5A00F58C27 /* ItemRowView.swift in Sources */,
 				2F08B1AA25A657D400F58C27 /* HomeView.swift in Sources */,
