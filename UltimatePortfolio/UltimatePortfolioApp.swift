@@ -24,6 +24,12 @@ struct UltimatePortfolioApp: App {
                 .environment(\.managedObjectContext, dataController.container.viewContext)
                 // For our code to read Core Data values
                 .environmentObject(dataController)
+                // Save data when app moves to background
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: save)
         }
+    }
+    
+    func save(_ note: Notification) {
+        dataController.save()
     }
 }
