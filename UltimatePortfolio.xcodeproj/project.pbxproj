@@ -29,6 +29,7 @@
 		2FF4737525AA5FE10098F2BF /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4737425AA5FE10098F2BF /* Awards.json */; };
 		2FF4737825AA60160098F2BF /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737725AA60160098F2BF /* Award.swift */; };
 		2FF4737B25AA60AB0098F2BF /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737A25AA60AB0098F2BF /* AwardsView.swift */; };
+		2FF4737F25AA66D50098F2BF /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737E25AA66D50098F2BF /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		2FF4737425AA5FE10098F2BF /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		2FF4737725AA60160098F2BF /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		2FF4737A25AA60AB0098F2BF /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		2FF4737E25AA66D50098F2BF /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2F08B1A125A6562100F58C27 /* DataController.swift */,
 				2FF4737725AA60160098F2BF /* Award.swift */,
 				2FF4737A25AA60AB0098F2BF /* AwardsView.swift */,
+				2FF4737E25AA66D50098F2BF /* Color-Additions.swift */,
 				2F08B19125A6554800F58C27 /* Assets.xcassets */,
 				2F08B1C725A7838B00F58C27 /* Colors.xcassets */,
 				2FF4737425AA5FE10098F2BF /* Awards.json */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F08B1AE25A6587900F58C27 /* ProjectsView.swift in Sources */,
+				2FF4737F25AA66D50098F2BF /* Color-Additions.swift in Sources */,
 				2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */,
 				2FF4737225AA5C420098F2BF /* Bundle-Decodable.swift in Sources */,
 				2F08B19F25A6555B00F58C27 /* Main.xcdatamodeld in Sources */,
