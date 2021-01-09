@@ -25,6 +25,10 @@
 		2F08B1C825A7838B00F58C27 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08B1C725A7838B00F58C27 /* Colors.xcassets */; };
 		2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */; };
 		2FF4736F25AA5ABA0098F2BF /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */; };
+		2FF4737225AA5C420098F2BF /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737125AA5C420098F2BF /* Bundle-Decodable.swift */; };
+		2FF4737525AA5FE10098F2BF /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4737425AA5FE10098F2BF /* Awards.json */; };
+		2FF4737825AA60160098F2BF /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737725AA60160098F2BF /* Award.swift */; };
+		2FF4737B25AA60AB0098F2BF /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4737A25AA60AB0098F2BF /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,10 @@
 		2F08B1C725A7838B00F58C27 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		2FF4737125AA5C420098F2BF /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		2FF4737425AA5FE10098F2BF /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		2FF4737725AA60160098F2BF /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		2FF4737A25AA60AB0098F2BF /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 				2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */,
 				2F08B1A925A657D400F58C27 /* HomeView.swift */,
 				2F08B1AD25A6587900F58C27 /* ProjectsView.swift */,
+				2FF4737125AA5C420098F2BF /* Bundle-Decodable.swift */,
 				2F08B1C125A77E3100F58C27 /* Binding-OnChange.swift */,
 				2F08B1BE25A77C5A00F58C27 /* ItemRowView.swift */,
 				2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */,
@@ -98,8 +107,11 @@
 				2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */,
 				2F08B19D25A6555B00F58C27 /* Main.xcdatamodeld */,
 				2F08B1A125A6562100F58C27 /* DataController.swift */,
+				2FF4737725AA60160098F2BF /* Award.swift */,
+				2FF4737A25AA60AB0098F2BF /* AwardsView.swift */,
 				2F08B19125A6554800F58C27 /* Assets.xcassets */,
 				2F08B1C725A7838B00F58C27 /* Colors.xcassets */,
+				2FF4737425AA5FE10098F2BF /* Awards.json */,
 				2F08B19625A6554800F58C27 /* Info.plist */,
 				2F08B19325A6554800F58C27 /* Preview Content */,
 			);
@@ -180,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F08B1C825A7838B00F58C27 /* Colors.xcassets in Resources */,
+				2FF4737525AA5FE10098F2BF /* Awards.json in Resources */,
 				2F08B19525A6554800F58C27 /* Preview Assets.xcassets in Resources */,
 				2F08B19225A6554800F58C27 /* Assets.xcassets in Resources */,
 			);
@@ -194,8 +207,11 @@
 			files = (
 				2F08B1AE25A6587900F58C27 /* ProjectsView.swift in Sources */,
 				2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */,
+				2FF4737225AA5C420098F2BF /* Bundle-Decodable.swift in Sources */,
 				2F08B19F25A6555B00F58C27 /* Main.xcdatamodeld in Sources */,
 				2FF4736F25AA5ABA0098F2BF /* SelectSomethingView.swift in Sources */,
+				2FF4737825AA60160098F2BF /* Award.swift in Sources */,
+				2FF4737B25AA60AB0098F2BF /* AwardsView.swift in Sources */,
 				2F08B1A225A6562100F58C27 /* DataController.swift in Sources */,
 				2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */,
 				2F08B19025A6554800F58C27 /* ContentView.swift in Sources */,
