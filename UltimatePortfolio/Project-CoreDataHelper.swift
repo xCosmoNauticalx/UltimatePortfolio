@@ -20,6 +20,10 @@ extension Project {
         color ?? "Light Blue"
     }
     
+    var projectItems: [Item] {
+        items?.allObjects as? [Item] ?? []
+    }
+    
     static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
     
     /// For SwiftUI preview purposes
@@ -36,9 +40,8 @@ extension Project {
     }
     
     /// Wrap the relationship
-    var projectItems: [Item] {
-        let itemsArray = items?.allObjects as? [Item] ?? []
-        return itemsArray.sorted { first, second in
+    var projectItemsDefaultSorted: [Item] {
+        return projectItems.sorted { first, second in
             // Put completed items at end of list since we care about them less
             if first.completed == false {
                 if second.completed == true {
@@ -69,5 +72,17 @@ extension Project {
         
         let completedItems = originalItems.filter(\.completed)
         return Double(completedItems.count) / Double(originalItems.count)
+    }
+    
+    /// Sorts items accorning to desired order
+    func projectItems(using sortOrder: Item.SortOrder) -> [Item] {
+        switch sortOrder {
+        case .title:
+            return projectItems.sorted { $0.itemTitle < $1.itemTitle }
+        case .creationDate:
+            return projectItems.sorted { $0.itemCreationDate < $1.itemCreationDate }
+        case .optimized:
+            return projectItemsDefaultSorted
+        }
     }
 }

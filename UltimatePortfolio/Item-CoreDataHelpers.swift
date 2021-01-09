@@ -20,6 +20,10 @@ extension Item {
         creationDate ?? Date()
     }
     
+    enum SortOrder {
+        case optimized, title, creationDate
+    }
+    
     /// For SwiftUI previewing purposes
     static var example: Item {
         let controller = DataController(inMemory: true)

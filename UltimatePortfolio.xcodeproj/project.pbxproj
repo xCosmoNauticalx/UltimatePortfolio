@@ -24,6 +24,7 @@
 		2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */; };
 		2F08B1C825A7838B00F58C27 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08B1C725A7838B00F58C27 /* Colors.xcassets */; };
 		2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */; };
+		2FF4736F25AA5ABA0098F2BF /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		2F08B1C425A781BA00F58C27 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		2F08B1C725A7838B00F58C27 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		2F08B1CA25A7864F00F58C27 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				2F08B1AD25A6587900F58C27 /* ProjectsView.swift */,
 				2F08B1C125A77E3100F58C27 /* Binding-OnChange.swift */,
 				2F08B1BE25A77C5A00F58C27 /* ItemRowView.swift */,
+				2FF4736E25AA5ABA0098F2BF /* SelectSomethingView.swift */,
 				2F08B1B125A6781200F58C27 /* Item-CoreDataHelpers.swift */,
 				2F08B1B425A6794F00F58C27 /* Project-CoreDataHelper.swift */,
 				2F08B18F25A6554800F58C27 /* ContentView.swift */,
@@ -192,6 +195,7 @@
 				2F08B1AE25A6587900F58C27 /* ProjectsView.swift in Sources */,
 				2F08B1C525A781BA00F58C27 /* ProjectHeaderView.swift in Sources */,
 				2F08B19F25A6555B00F58C27 /* Main.xcdatamodeld in Sources */,
+				2FF4736F25AA5ABA0098F2BF /* SelectSomethingView.swift in Sources */,
 				2F08B1A225A6562100F58C27 /* DataController.swift in Sources */,
 				2F08B1CB25A7864F00F58C27 /* EditProjectView.swift in Sources */,
 				2F08B19025A6554800F58C27 /* ContentView.swift in Sources */,
